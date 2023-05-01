@@ -52,6 +52,8 @@ nav a {
     margin-left: 2.4rem;
 }
 
+/*first section*/
+
 .illustration-1 {
     width: 30.4rem;
     height: 22.5rem;
@@ -90,11 +92,222 @@ h1 + p {
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     border-radius: 3.125px;
     margin: 3.2rem 3.3rem 0rem 3.8rem;
+    padding-left: 2.1rem;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.4px;
+    color: #C2C2C2;
 }
 
+.get-started {
+    width: 30.4rem;
+    height: 4rem;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    border-color: transparent;
+    cursor: pointer;
+    margin: 1.6rem 3.6rem 0rem 3.5rem;
+}
 
+/*second section*/
 
+.curve-mobile {
+    margin-top: 9rem;
+}
 
+.second {
+    background: #F8F8FE;
+    padding-bottom: 8.2rem;
+}
+
+.illustration-2 {
+    width: 32rem;
+    height: 24.1rem;
+    margin: 0rem 2.8rem;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #07043B;
+    margin: 8.7rem 5.7rem 0rem 5.8rem;
+}
+
+h2 + p {    
+    width: 32rem;
+    height: 6.3rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    text-align: center;
+    color: #615F7E;
+    margin: 2.4rem 3.5rem 0rem 2rem;
+}
+
+h2 + p + p {
+    width: 32rem;
+    height: 6.3rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    text-align: center;
+    color: #615F7E;
+    margin: 1.6rem 3.5rem 3.6rem 2rem;
+}
+
+.fylo-div {
+    display: flex;
+    align-items: center;
+}
+
+.fylo-link {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #3DA08F;
+    margin: 0rem 0.8rem 0rem 12.3rem;
+}
+
+.underline {
+    width: 13rem;
+    height: 0.1rem;
+    background: #3DA08F;
+    margin: 0.6rem 12.2rem 0rem 12.3rem;
+}
+
+.castomer {
+    width: 28rem;
+    height: 16.9rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 3.93258px;
+    padding-left: 2.6rem;
+    margin: 4rem 4.7rem 0rem 4.8rem;
+}
+
+.quotes {
+    margin-top: 2.5rem;
+}
+
+.quotes + p {
+    width: 24.1rem;
+    height: 7.3rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.384615px;
+    color: #07043B;
+    text-align: left;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.avatar {
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 0.75rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.45px;
+    color: #07043B;
+}
+
+h3 + p {
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 1.2rem;
+    letter-spacing: 0.3px;
+    color: #07043B;
+}
+
+/*access section*/
+
+.access {
+    width: 100%;
+    height: 34.5rem;
+    background: #575988;
+    padding-top: 5.4rem;
+}
+
+.access h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0rem 9rem;
+}
+
+.access p {
+    width: 28rem;
+    height: 8.4rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 1.6rem 4.7rem 0rem 4.7rem;
+}
+
+.email-2 {
+    width: 24rem;
+    height: 3.2rem;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    border-color: transparent;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #C0C0C0;
+    padding: 1.1rem 0rem 0.9rem 0.8rem;
+    margin: 2.4rem 6.9rem 0rem 6.6rem;
+}
+
+.start-free {
+    width: 24rem;
+    height: 3.2rem;
+    background: #2F65F8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    border-color: transparent;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0.8rem 6.9rem 0rem 6.6rem;
+}
+
+/* footer - I will continue from here*/
 
 
 
